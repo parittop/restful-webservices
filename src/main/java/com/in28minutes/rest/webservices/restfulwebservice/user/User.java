@@ -18,6 +18,9 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public User() {
+		super();
+	}
 	public Date getBirthDay() {
 		return birthDay;
 	}
